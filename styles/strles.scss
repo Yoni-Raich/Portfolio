@@ -518,6 +518,7 @@ section{
 //Blogs Section//
 .blogs
 {
+    
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-gap: 2rem;
@@ -584,7 +585,18 @@ section{
 }
 
 
-
+//Contact section//
+.contact-content-con
+{
+   
+    
+    display: flex;
+    padding-top: 3.5rem;
+    .left-contact
+    {
+        flex: 2;
+    }
+}
 
 //Independed components//
 .btn-con
