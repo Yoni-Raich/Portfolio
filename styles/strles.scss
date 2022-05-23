@@ -129,20 +129,33 @@ section{
         background-color: var(--color-grey-4);
         width: 44px;
         height: 44px;
-        border-radius: 50%;
+        border-radius: 15%;
         display: flex;
         justify-content: center;
         align-items: center;
         margin: .4rem 0;
-        box-shadow: var(--box-shadow-1) ;
+        box-shadow: var(--box-shadow-1);
+        transition: all .4s ease-in-out;
         i{
             font-size: 1.2rem;
             color: var(--color-grey-2);
             pointer-events: none;
         }
+        &:hover
+        {
+        
+            
+            //background-color: var(--color-secondary);
+            transition: all .4s ease-in-out;
+            transform: translateX(-30%);
+        
+        }
+        
     }
+    
     .active-btn
     {
+      
         background-color: var(--color-secondary);
         transition: all .4s ease-in-out;
         i { color: var(--color-white); }
