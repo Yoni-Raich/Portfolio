@@ -102,10 +102,10 @@ section{
     animation: scaleAnim 1s ease-in-out;
     @keyframes scaleAnim{
         0%{
-            transform: translateY(-50%) scaleY(0);
+            transform: translateX(-30%) ;
         }
         100%{
-            transform: translateY(0) scaleY(1);
+            transform: translateX(0) ;
         }
     }
 }

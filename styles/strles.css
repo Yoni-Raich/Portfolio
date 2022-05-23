@@ -114,23 +114,23 @@ section {
 
 @-webkit-keyframes scaleAnim {
   0% {
-    -webkit-transform: translateY(-50%) scaleY(0);
-            transform: translateY(-50%) scaleY(0);
+    -webkit-transform: translateX(-30%);
+            transform: translateX(-30%);
   }
   100% {
-    -webkit-transform: translateY(0) scaleY(1);
-            transform: translateY(0) scaleY(1);
+    -webkit-transform: translateX(0);
+            transform: translateX(0);
   }
 }
 
 @keyframes scaleAnim {
   0% {
-    -webkit-transform: translateY(-50%) scaleY(0);
-            transform: translateY(-50%) scaleY(0);
+    -webkit-transform: translateX(-30%);
+            transform: translateX(-30%);
   }
   100% {
-    -webkit-transform: translateY(0) scaleY(1);
-            transform: translateY(0) scaleY(1);
+    -webkit-transform: translateX(0);
+            transform: translateX(0);
   }
 }
 
