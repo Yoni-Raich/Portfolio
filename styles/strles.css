@@ -186,6 +186,7 @@ section {
 }
 
 .controls .control:hover {
+  background-color: var(--color-secondary);
   -webkit-transition: all .4s ease-in-out;
   transition: all .4s ease-in-out;
   -webkit-transform: translateX(-30%);
@@ -1014,6 +1015,31 @@ section {
   header .right-header {
     padding: 0 !important;
   }
+  .active {
+    display: block;
+    -webkit-animation: scaleAnim 1s ease-in-out;
+            animation: scaleAnim 1s ease-in-out;
+  }
+  @-webkit-keyframes scaleAnim {
+    0% {
+      -webkit-transform: translateY(-30%);
+              transform: translateY(-30%);
+    }
+    100% {
+      -webkit-transform: translateY(0);
+              transform: translateY(0);
+    }
+  }
+  @keyframes scaleAnim {
+    0% {
+      -webkit-transform: translateY(-30%);
+              transform: translateY(-30%);
+    }
+    100% {
+      -webkit-transform: translateY(0);
+              transform: translateY(0);
+    }
+  }
   .theme-btn {
     width: 50px;
     height: 50px;
@@ -1103,6 +1129,12 @@ section {
   }
   .controls .control {
     margin: 1rem .3rem;
+  }
+  .controls .control:hover {
+    -webkit-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+    -webkit-transform: translateY(-30%);
+            transform: translateY(-30%);
   }
 }
 
