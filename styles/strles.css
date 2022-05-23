@@ -64,6 +64,8 @@ section {
   left: 0;
   right: 0;
   padding: 3rem 18rem;
+  padding-left: 6rem;
+  padding-right: 6rem;
 }
 
 .section {
@@ -158,8 +160,8 @@ section {
   padding: 1rem;
   cursor: pointer;
   background-color: var(--color-grey-4);
-  width: 55px;
-  height: 55px;
+  width: 44px;
+  height: 44px;
   border-radius: 50%;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -170,7 +172,7 @@ section {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  margin: .7rem 0;
+  margin: .4rem 0;
   -webkit-box-shadow: var(--box-shadow-1);
           box-shadow: var(--box-shadow-1);
 }
@@ -194,8 +196,8 @@ section {
 .theme-btn {
   top: 5%;
   right: 3%;
-  width: 70px;
-  height: 70px;
+  width: 30px;
+  height: 30px;
   border-radius: 50%;
   background-color: var(--color-grey-4);
   cursor: pointer;
@@ -211,8 +213,8 @@ section {
           align-items: center;
   -webkit-box-shadow: 0 3px 15px rgba(0, 0, 0, 0.3);
           box-shadow: 0 3px 15px rgba(0, 0, 0, 0.3);
-  -webkit-transform: all .1s ease-in-out;
-          transform: all .1s ease-in-out;
+  -webkit-transform: all .4s ease-in-out;
+          transform: all .4s ease-in-out;
 }
 
 .theme-btn:active {
