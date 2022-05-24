@@ -1133,8 +1133,8 @@ section {
   .controls .control:hover {
     -webkit-transition: all .4s ease-in-out;
     transition: all .4s ease-in-out;
-    -webkit-transform: translateY(-30%);
-            transform: translateY(-30%);
+    -webkit-transform: translateY(0%);
+            transform: translateY(0%);
   }
 }
 
